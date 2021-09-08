@@ -1,0 +1,91 @@
+.container {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* align-self: center; */
+    /* align-content: center; */
+}
+.btn {
+    background-color: #eecc0a;
+    /* margin-top: 10px; */
+    /* padding: 10px; */
+}
+
+.navbar {
+    display: flex;
+    background-color: #eecc0a;
+    justify-content: center;    
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* .d-flex {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+} */
+.mb-3 {
+    display:flex;
+    align-items: center;
+}
+.guest_signup{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.or {
+    display: flex;
+    /* justify-content: center; */
+    width: 72px;
+    align-self: center;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/ebLyPNyZghyiG1TCxQJ5vI-qxvU=/0x0:1280x853/1200x900/filters:focal(538x325:742x529)/cdn.vox-cdn.com/uploads/chorus_image/image/69482129/Aerial_Image__1_.0.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.82);
+    padding: 10px;
+    width: 18rem;
+    margin-top: 100px;
+}
+
+.or {
+    display: flex;
+    background-color: rgba(219, 219, 219, 0.849);
+    /* width: 25px; */
+    padding: 10px;
+    margin: 16px;
+    /* justify-content: center; */
+    /* align-self: center;
+    align-content: center; */
+}
+
+.guest_signup {
+    background-color: rgba(255, 255, 255, 0.82);
+    width: 18rem;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.password {
+    width: 300px;
+}

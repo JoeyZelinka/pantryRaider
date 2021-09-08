@@ -1,0 +1,36 @@
+#image {
+  max-width: 300px;
+}
+.card-body{
+  padding: 10px;
+}
+
+.card-title {
+  height: 50%;
+}
+
+.one-card {
+  display: flex;
+  /* width: 35vw; */
+  margin: 16px 0px;
+}
+
+.options {
+  /* margin: none; */
+  display: flex;
+  justify-content: space-evenly;
+  /* position: relative; */
+}
+
+#hatImage {
+  height: 25px;
+  width: 25px;
+}
+
+#instructionsList {
+  width: 650px;
+}
+
+.footer {
+  font-size: small;
+}
